@@ -34,7 +34,7 @@ def get_figma_text_nodes(file_key):
 
 # Função para traduzir e salvar progressivamente com verificação de tradução simulada
 def translate_json(file_path):
-    translator = GoogleTranslator(source="russian", target="portuguese")
+    translator = GoogleTranslator(source="russian", target="portuguese") # Traduzindo do russo para o português mas pode ser alterado para qualquer idioma.
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:

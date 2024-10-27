@@ -37,7 +37,10 @@ pip install requests deep-translator tqdm
    - Substitua `figma_token` pelo seu token da API do Figma.
    - Substitua `file_key` pelo ID do arquivo Figma.
 
-3. **Execute o script:**
+3. **Na linha do código Selecione o idioma:**
+   - na linha `37` é possível alterar o idioma.
+
+4. **Execute o script:**
 ```bash
 python figma_translate.py
 
