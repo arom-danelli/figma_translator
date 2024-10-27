@@ -1,0 +1,14 @@
+# Ignorar a pasta de ambiente virtual
+venv/
+
+# Ignorar arquivos JSON de traduções
+translated_text_nodes.json
+
+# Ignorar outros arquivos temporários do sistema
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de configurações do editor (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
